@@ -3,6 +3,8 @@
 
 # Use Ivy completion with Smex command matching
 
+*NOTE: This package is redundant, given `counsel-M-x`, but I'm leaving it here anyway.*
+
 [Smex](https://github.com/nonsequitur/smex) has really nice handling
 of command histories, favouring commands which have been executed most
 frequently in the past. This package provides an
