@@ -3,10 +3,11 @@
 
 # Use Ivy completion with Smex command matching
 
-Smex has really nice handling of command histories, favouring commands
-which have been executed most frequently in the past.  This package
-provides an Ivy interface to those internals via the `ivy-smex`
-command, which is meant as a replacement for
+[Smex](https://github.com/nonsequitur/smex) has really nice handling
+of command histories, favouring commands which have been executed most
+frequently in the past. This package provides an
+[Ivy](https://github.com/abo-abo/swiper) interface to those internals
+via the `ivy-smex` command, which is meant as a replacement for
 `execute-extended-command` or `smex`:
 
 This package was inspired by - and based in part on -
