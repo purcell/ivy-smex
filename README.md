@@ -9,6 +9,9 @@ provides an Ivy interface to those internals via the `ivy-smex`
 command, which is meant as a replacement for
 `execute-extended-command` or `smex`:
 
+This package was inspired by - and based in part on -
+[helm-smex](https://github.com/ptrv/helm-smex).
+
 ## Installation
 
 ### Manual
