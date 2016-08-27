@@ -59,7 +59,13 @@
   (ivy-read "M-x "
             smex-ido-cache
             :require-match t
-            :action 'ivy-smex--execute-command))
+            :action 'ivy-smex--execute-command
+            :caller 'ivy-smex))
+
+(ivy-set-actions
+ 'ivy-smex
+ '(("d" (lambda (c) (describe-function (intern c))) "describe")
+   ("g" (lambda (c) (find-function (intern c))) "go to definition")))
 
 
 (provide 'ivy-smex)
