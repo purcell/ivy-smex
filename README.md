@@ -32,6 +32,13 @@ If you're an Emacs 24 user or you have a recent version of
 [MELPA](http://melpa.org) repository. The version of
 `ivy-smex` there will always be up-to-date.
 
+To make `ivy-smex` your default `M-x` command, add the following to
+your `~/.emacs` or `~/.emacs.d/init.el`:
+
+``` lisp
+(global-set-key (kbd "M-x") 'ivy-smex)
+```
+
 ## About
 
 Author: Steve Purcell <steve at sanityinc dot com>
